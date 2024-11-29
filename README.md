@@ -66,8 +66,8 @@ The **App-Based Digital Audio Meter** is a Flutter application designed for audi
 
 ## Screenshots
 
-### **Top Images** (Home Screen & Audio Visualization):
-<div style="display: flex; justify-content: space-between;">
+### Home Screen & Audio Visualization:
+<div style="display: flex; justify-content: space-between; padding-top:10px">
   <img src="assets/img_samples/home_screen.jpg" alt="Home Screen" width="48%" />
   <img src="assets/img_samples/audio_visualization.jpg" alt="Audio Visualization" width="48%" />
 </div>
@@ -77,7 +77,12 @@ The **App-Based Digital Audio Meter** is a Flutter application designed for audi
   <img src="assets/img_samples/audio_monitor.jpg" alt="Real-Time Monitoring" width="100%" />
 </div>
 
-### **Bottom Images** (Settings Menu & Data Logging):
+### **See Your Audiogram result**:
+<div style="text-align: center;">
+  <img src="assets/img_samples/audio_output.jpg" alt="Real-Time Monitoring" width="100%" />
+</div>
+
+### Settings Menu & Data Logging:
 <div style="display: flex; justify-content: space-between;">
   <img src="assets/img_samples/settings_menu.jpg" alt="Settings Menu" width="48%" />
   <img src="assets/img_samples/data_logging.jpg" alt="Data Logging" width="48%" />
