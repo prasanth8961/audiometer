@@ -65,27 +65,27 @@ The **App-Based Digital Audio Meter** is a Flutter application designed for audi
    - Save logs and export them in preferred formats for professional use.
 
 ---
-
 ## Screenshots
 
 **Add your screenshots by uploading images to the repository and replacing `#` with the image paths.**
 
 ### **Home Screen**:
-![Home Screen](assets/img_samples/home_screen.jpg)
+<img src="assets/img_samples/home_screen.jpg" alt="Home Screen" width="300px" style="display: inline-block; margin-right: 10px;" />
 
 ### **Real-Time Monitoring**:
-![Audio Visualization](assets/img_samples/audio_monitor.jpg)
+<img src="assets/img_samples/audio_monitor.jpg" alt="Audio Visualization" width="100%" />
 
 ### **Audio Visualization**:
-![Audio Visualization](assets/img_samples/audio_visualization.jpg)
+<img src="assets/img_samples/audio_visualization.jpg" alt="Audio Visualization" width="300px" style="display: inline-block; margin-right: 10px;" />
 
 ### **Settings Menu**:
-![Settings Menu](assets/img_samples/settings_menu.jpg)
+<img src="assets/img_samples/settings_menu.jpg" alt="Settings Menu" width="300px" style="display: inline-block; margin-right: 10px;" />
 
 ### **Data Logging**:
-![Data Logging](assets/img_samples/data_logging.jpg)
+<img src="assets/img_samples/data_logging.jpg" alt="Data Logging" width="300px" style="display: inline-block;" />
 
 ---
+
 
 ## Future Enhancements
 
@@ -113,21 +113,21 @@ The **App-Based Digital Audio Meter** is a Flutter application designed for audi
    ```bash
    flutter doctor
 3. Install Dependencies
-  ```bash
-  flutter pub get
+   ```bash
+   flutter pub get
 4. Set up a Device
-  -Physical Device: Connect your Android or iOS device via USB and enable Developer Mode.
-  -Emulator: Set up an Android or iOS emulator in Android Studio or Xcode.
+   # Physical Device: Connect your Android or iOS device via USB and enable Developer Mode.
+   # Emulator: Set up an Android or iOS emulator in Android Studio or Xcode.
 5. Run the App
-```bash
+    ```bash
    flutter run
 
 6. Interact with the App
-    Launch the app and grant microphone permissions.
-    Start real-time monitoring of audio levels.
-    Adjust settings from the menu to fit your preferences.
-    Log audio data for future analysis.
-    Export logs in CSV or PDF format for external use.
+    # Launch the app and grant microphone permissions.
+    # Start real-time monitoring of audio levels.
+    # Adjust settings from the menu to fit your preferences.
+    # Log audio data for future analysis.
+    # Export logs in CSV or PDF format for external use.
 
   
 
