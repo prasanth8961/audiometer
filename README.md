@@ -64,25 +64,24 @@ The **App-Based Digital Audio Meter** is a Flutter application designed for audi
 4. **Log and Export Data**:
    - Save logs and export them in preferred formats for professional use.
 
----
 ## Screenshots
 
-**Add your screenshots by uploading images to the repository and replacing `#` with the image paths.**
-
-### **Home Screen**:
-<img src="assets/img_samples/home_screen.jpg" alt="Home Screen" width="300px" style="display: inline-block; margin-right: 10px;" />
+### **Top Images** (Home Screen & Audio Visualization):
+<div style="display: flex; justify-content: space-between;">
+  <img src="assets/img_samples/home_screen.jpg" alt="Home Screen" width="48%" />
+  <img src="assets/img_samples/audio_visualization.jpg" alt="Audio Visualization" width="48%" />
+</div>
 
 ### **Real-Time Monitoring**:
-<img src="assets/img_samples/audio_monitor.jpg" alt="Audio Visualization" width="100%" />
+<div style="text-align: center;">
+  <img src="assets/img_samples/audio_monitor.jpg" alt="Real-Time Monitoring" width="100%" />
+</div>
 
-### **Audio Visualization**:
-<img src="assets/img_samples/audio_visualization.jpg" alt="Audio Visualization" width="300px" style="display: inline-block; margin-right: 10px;" />
-
-### **Settings Menu**:
-<img src="assets/img_samples/settings_menu.jpg" alt="Settings Menu" width="300px" style="display: inline-block; margin-right: 10px;" />
-
-### **Data Logging**:
-<img src="assets/img_samples/data_logging.jpg" alt="Data Logging" width="300px" style="display: inline-block;" />
+### **Bottom Images** (Settings Menu & Data Logging):
+<div style="display: flex; justify-content: space-between;">
+  <img src="assets/img_samples/settings_menu.jpg" alt="Settings Menu" width="48%" />
+  <img src="assets/img_samples/data_logging.jpg" alt="Data Logging" width="48%" />
+</div>
 
 ---
 
@@ -116,18 +115,18 @@ The **App-Based Digital Audio Meter** is a Flutter application designed for audi
    ```bash
    flutter pub get
 4. Set up a Device
-   # Physical Device: Connect your Android or iOS device via USB and enable Developer Mode.
-   # Emulator: Set up an Android or iOS emulator in Android Studio or Xcode.
+    Physical Device: Connect your Android or iOS device via USB and enable Developer Mode.
+    Emulator: Set up an Android or iOS emulator in Android Studio or Xcode.
 5. Run the App
     ```bash
    flutter run
 
 6. Interact with the App
-    # Launch the app and grant microphone permissions.
-    # Start real-time monitoring of audio levels.
-    # Adjust settings from the menu to fit your preferences.
-    # Log audio data for future analysis.
-    # Export logs in CSV or PDF format for external use.
+     Launch the app and grant microphone permissions.
+     Start real-time monitoring of audio levels.
+     Adjust settings from the menu to fit your preferences.
+     Log audio data for future analysis.
+     Export logs in CSV or PDF format for external use.
 
   
 
