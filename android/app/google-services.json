@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "683647933552",
+    "project_id": "audio-meter",
+    "storage_bucket": "audio-meter.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683647933552:android:695a9c700e9c3f006de8b5",
+        "android_client_info": {
+          "package_name": "com.example.audiometer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6ZN-NAppMj0E7_spZC2N6cYh6y6cEwnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
