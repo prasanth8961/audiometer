@@ -2,6 +2,7 @@ import 'package:audiometer/provider/firebase_provider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:provider/provider.dart';
 import 'package:audiometer/provider/storage_provider.dart';
 import 'package:audiometer/provider/theme_provider.dart';
@@ -20,6 +21,7 @@ import 'screens/settings/settings.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   ThemeProvider().loadTheme();
+  await dotenv.load(fileName: "lib/.env");
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );

@@ -3,6 +3,7 @@
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
@@ -40,47 +41,51 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBkh7opo2f_Bo0BtKiJyzafVW0FWXTXuHk',
-    appId: '1:683647933552:web:71373d308842e37f6de8b5',
-    messagingSenderId: '683647933552',
-    projectId: 'audio-meter',
-    authDomain: 'audio-meter.firebaseapp.com',
-    storageBucket: 'audio-meter.firebasestorage.app',
+  static FirebaseOptions web = FirebaseOptions(
+    apiKey: dotenv.env["API_KEY"]!,
+    appId: dotenv.env["APP_ID"]!,
+    messagingSenderId: dotenv.env["MESSAGING_SENDER_ID"]!,
+    projectId: dotenv.env["PROJECT_ID"]!,
+    authDomain: dotenv.env["AUTH_DOMIN"],
+    storageBucket: dotenv.env["STORAGE_BUCKET"],
   );
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA6ZN-NAppMj0E7_spZC2N6cYh6y6cEwnM',
-    appId: '1:683647933552:android:695a9c700e9c3f006de8b5',
-    messagingSenderId: '683647933552',
-    projectId: 'audio-meter',
-    storageBucket: 'audio-meter.firebasestorage.app',
+  static FirebaseOptions android = FirebaseOptions(
+    apiKey: dotenv.env["API_KEY"]!,
+    appId: dotenv.env["APP_ID"]!,
+    messagingSenderId: dotenv.env["MESSAGING_SENDER_ID"]!,
+    projectId: dotenv.env["PROJECT_ID"]!,
+    authDomain: dotenv.env["AUTH_DOMIN"],
+    storageBucket: dotenv.env["STORAGE_BUCKET"],
   );
 
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDjXzD87k6D0vkjfDvy0p-5l5-NERKC2VE',
-    appId: '1:683647933552:ios:6b6002d9c13d43466de8b5',
-    messagingSenderId: '683647933552',
-    projectId: 'audio-meter',
-    storageBucket: 'audio-meter.firebasestorage.app',
-    iosBundleId: 'com.example.audiometer',
+  static FirebaseOptions ios = FirebaseOptions(
+    apiKey: dotenv.env["API_KEY"]!,
+    appId: dotenv.env["APP_ID"]!,
+    messagingSenderId: dotenv.env["MESSAGING_SENDER_ID"]!,
+    projectId: dotenv.env["PROJECT_ID"]!,
+    authDomain: dotenv.env["AUTH_DOMIN"],
+    storageBucket: dotenv.env["STORAGE_BUCKET"],
+    iosBundleId: dotenv.env["IOS_BUNDLED_ID"]!,
   );
 
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDjXzD87k6D0vkjfDvy0p-5l5-NERKC2VE',
-    appId: '1:683647933552:ios:6b6002d9c13d43466de8b5',
-    messagingSenderId: '683647933552',
-    projectId: 'audio-meter',
-    storageBucket: 'audio-meter.firebasestorage.app',
-    iosBundleId: 'com.example.audiometer',
+  static FirebaseOptions macos = FirebaseOptions(
+    apiKey: dotenv.env["API_KEY"]!,
+    appId: dotenv.env["APP_ID"]!,
+    messagingSenderId: dotenv.env["MESSAGING_SENDER_ID"]!,
+    projectId: dotenv.env["PROJECT_ID"]!,
+    authDomain: dotenv.env["AUTH_DOMIN"],
+    storageBucket: dotenv.env["STORAGE_BUCKET"],
+    iosBundleId: dotenv.env["IOS_BUNDLED_ID"]!,
   );
 
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBkh7opo2f_Bo0BtKiJyzafVW0FWXTXuHk',
-    appId: '1:683647933552:web:f56b16baff9598c86de8b5',
-    messagingSenderId: '683647933552',
-    projectId: 'audio-meter',
-    authDomain: 'audio-meter.firebaseapp.com',
-    storageBucket: 'audio-meter.firebasestorage.app',
+  static FirebaseOptions windows = FirebaseOptions(
+    apiKey: dotenv.env["API_KEY"]!,
+    appId: dotenv.env["APP_ID"]!,
+    messagingSenderId: dotenv.env["MESSAGING_SENDER_ID"]!,
+    projectId: dotenv.env["PROJECT_ID"]!,
+    authDomain: dotenv.env["AUTH_DOMIN"],
+    storageBucket: dotenv.env["STORAGE_BUCKET"],
+    iosBundleId: dotenv.env["IOS_BUNDLED_ID"]!,
   );
 }
